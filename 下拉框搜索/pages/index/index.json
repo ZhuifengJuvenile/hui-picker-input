@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "pickerinput": "../../components/hui-picker-input/hui-picker-input"
+  }
+}

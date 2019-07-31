@@ -1,0 +1,2 @@
+<!--index.wxml-->
+<pickerinput list="{{list}}" _width="600rpx" _height="80rpx" bind:action="change" actualvalue="userid" showvalue="username"></pickerinput>

@@ -1,0 +1,10 @@
+<!--components/hui-picker-input.wxml-->
+<view style="width:{{_width}};height:{{_height}};" class="uni-picker-input">
+  <input value="{{picker_value}}" class="picker-item-input" bindinput="bindkeyinput" />
+  <picker style="width:30%;height:100%;" bindchange="bindchange" value="{{list2[index][actualvalue]}}" range-key="{{showvalue}}" range="{{list2}}">
+    <view class='uni-picker-icon'>
+      <image src="../../images/xialajiantou.png" class='img' />
+      <!-- <view class="iconfont icon-xialajiantou img"></view> -->
+    </view>
+  </picker>
+</view>
